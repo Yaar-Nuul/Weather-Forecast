@@ -1,0 +1,57 @@
+.navbar{
+    display: flex;
+    gap: 70px;
+    padding: 20px;
+}
+
+
+
+.bm-burger-bars-hover {
+    text-decoration: none;
+    width: 10%;
+  }
+  
+  .bm-menu-wrap {
+    position: fixed;
+    height: 10%;
+  }
+  
+  .bm-menu {
+    padding: 2.5em 1.5em 0;
+    font-size: 1.15em;
+  }
+  .navbar{
+    display: flex;
+    padding: 40px;
+  }
+input{
+    border-radius: 15px;
+    padding: 10px;
+    height: 20px;
+    width: 40%;
+    margin-left: 40%;
+}
+  
+  .navbar{
+    display: flex;
+    word-spacing: normal;
+    justify-content: space-between;
+    padding: 30px;
+    font-size: 20px;
+
+  }
+ 
+  @media (max-width: 768px) {
+   .nav-links {
+      display: none;
+    }
+  
+    input[type="checkbox"]:checked ~.nav-links {
+      display: block; 
+    }
+  
+   .hamburger {
+      display: block; 
+    }
+  }
+  
